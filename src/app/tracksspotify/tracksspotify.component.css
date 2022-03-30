@@ -1,0 +1,16 @@
+/* body{
+    width:fit-content;
+} */
+
+.body1{
+    margin: 40px;
+    margin-top: 2px;
+}
+.card1{
+    margin-right: 40px;
+    width: inherit;
+    margin-top: 30px;
+}
+.style{
+    margin-top: 25px;
+}

@@ -1,0 +1,18 @@
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+
+}
+.sidebarStyle{
+    border:  black !important ;
+    padding : 0 !important;
+    margin-top: 45px;
+}
+.colorstyle{
+    background-color: black;
+}
+a:hover {
+    background-color: white;
+  }

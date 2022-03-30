@@ -1,0 +1,56 @@
+<!-- <section class="body">
+    <div>
+      <div class="bcontent col-lg-12 " style="display: flex;flex-wrap: wrap;
+      justify-content: space-around;">
+        <div class="images  col-lg-3" *ngFor="let item of data1.albums ; let i = index">
+            <div class="card ">
+              <div class="row mycol ">
+    
+                <div class="col-lg-6  ">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <h5>{{"Name: "+item.name}}</h5>
+                    <p>{{"Artist: "+item.artist}}</p>
+                    <p>{{"Duration: "+item.duration}}</p>
+                    <p>{{"Released Date: "+item.releaseDate}}</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 ">
+                  <div>
+                  <p><b>{{item.name}}</b></p>
+                  <img class="card-img" src="https://th.bing.com/th/id/OIP.iAVLo5OvcmnTouQa8Wo4-QHaHk?pid=ImgDet&rs=1"
+                    (click)="tracks(item)" alt="Suresh Dasari Card" >
+                </div>
+              </div>
+    
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </section> -->
+<section class="body1">
+  <div class="container">
+    <div class="row">
+      <div *ngFor="let item of spotifygetdata" class="col-lg-4 col-md-6 col-sm-4 justify-content-end">
+
+        <div class="card card1">
+          <div class="col">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <img src="https://th.bing.com/th/id/OIP.iAVLo5OvcmnTouQa8Wo4-QHaHk?pid=ImgDet&rs=1" width="100px"
+                  height="100px"  (click)="tracks(item)" alt="">
+              </div>
+              <div class="col-lg-8 col-md-6 col-sm-6">
+                <h3><b>{{"Name: "+item.Album}}</b></h3>
+                <h4><b>{{"Artist: "+item.Music_Director}}</b></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>

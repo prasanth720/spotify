@@ -1,0 +1,58 @@
+/* body{
+    font-family:sans-serif;
+    color: black;
+}
+a{
+    color: green;
+
+}
+a:hover{
+    color: green;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+#header{
+    background: black;
+    padding: 15px;
+}
+
+#header .logo {
+    font-size :28px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height:1;
+    font-weight:700;
+  
+}
+#header .logo a {
+    color: white;
+    font-family: 'Signika', sans-serif;
+}
+.nav-menu ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.nav-menu > ul{
+    display : flex;
+}
+.nav-menu >ul > li {
+    position : relative;
+    white-space :nowrap;
+    padding :10px 0 10px 22px;
+}
+ .nav-menu a{
+     display: block;
+     position: relative;
+     color: rgba(255, 255, 255, 0.7);
+     transition: 0.3s;
+     font-size:14px;
+     font-weight:500;
+     font-family: sans-serif;
+ } */
+ style{
+     background-color: black;
+ }
